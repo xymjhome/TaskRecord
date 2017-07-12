@@ -8,3 +8,14 @@
 2017/07/06
 看Java编程相关基础知识
 下载配置项目源码，接触到Maven，编译项目代码，打包成jar包
+
+
+
+
+2017/07/12
+看Java中Socket相关知识。
+串Mars-rankflow-recommender下的skuAgg执行流程，主要是两个xml文件控制执行主流程。
+串recommender-resecond-hub代码，但是没能配置好，看至执行启动服务的流程。
+               进行分流,主要通过thrift和ngnix，此部分的负载均衡估计也是通过zookpeer
+divier.jd.com ----------------------------------------------------------> recroot
+   -------------------->hub(主要测试程序的起始点)

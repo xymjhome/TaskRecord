@@ -179,3 +179,8 @@ import package1[.package2…].(classname|*);
 如果在一个包中，一个类想要使用本包中的另一个类，那么该包名可以省略。 
  注意：
 类文件中可以包含任意数量的 import 声明。import 声明必须在包声明之后，类声明之前。 
+
+
+<? extends T>和<? super T>的区别
+    <? extends T>表示该通配符所代表的类型是T类型的子类。
+    <? super T>表示该通配符所代表的类型是T类型的父类
